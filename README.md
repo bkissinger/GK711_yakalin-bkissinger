@@ -16,9 +16,9 @@
 
 5. Jetzt mussten wir den I2C-Bus aktivieren. Dafür gibt man `sudo raspi-config` ein, navigiert anschließend zu Interfaces > I2C. 
 
-   <img src="../img/config1.jpeg" style="zoom:33%;" />
+   <img src="img/config1.jpeg" style="zoom:33%;" />
 
-   <img src="../img/config2.jpeg" style="zoom:33%;" />
+   <img src="img/config2.jpeg" style="zoom:33%;" />
 
    Nun kann man den Bus mit Enter aktivieren. Jetzt muss man den Raspberry PI mittels `sudo reboot` neustarten. Gibt man nun `sudo i2cdetect -y 1` ein, so sieht man, dass Adresse 68 belegt ist: <img src="../img/i2c.jpeg" style="zoom:50%;" />
 
@@ -32,9 +32,9 @@
 
 #### Sensor 
 
-<img src="../img/sensor.jpeg" style="zoom: 25%;" />
+<img src="img/sensor.jpeg" style="zoom: 25%;" />
 
-<img src="../img/pinout.jpeg" style="zoom: 50%;" />
+<img src="img/pinout.jpeg" style="zoom: 50%;" />
 
 Den Sensor mussten wir an 4 PINS anschließen:
 
